@@ -1,0 +1,8 @@
+escrita = input('escreva algo:')
+print('O tipo é', type(escrita))
+print('só tem espaço?', escrita.isspace())
+print('é um número', escrita.isnumeric())
+print('É uma escrita pequena?', escrita.istitle())
+print('é alpha?', escrita.isalpha())
+print('esta em maiusculo?', escrita.isupper())
+print('esta em minusculo?', escrita.islower())
